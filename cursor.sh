@@ -84,7 +84,7 @@ function get_fallback_download_info() {
     local arch=$(get_arch)
 
     # this AppImage is potentially older than expected, see
-    # https://github.com/watzon/cursor-linux-installer/issues/5
+    # https://github.com/nzlz/cursor-linux-installer/issues/5
     echo "MESSAGE=$1"
     echo "URL=https://downloader.cursor.sh/linux/appImage/$arch"
     echo "VERSION=fallback"
